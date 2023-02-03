@@ -1,0 +1,148 @@
+body {
+  font-family: "Mitr", sans-serif;
+  text-transform: capitalize;
+  line-height: 33px;
+  overflow: hidden;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.column {
+  width: 25%;
+  display: block;
+  margin-bottom: 20px;
+  float: left;
+}
+.btn {
+  font-size: 14px;
+  position: relative;
+  top: 297px;
+  left: 250px;
+  font-family: "Mitr", sans-serif;
+  font-weight: 300;
+  border: 0.5px solid #c1c9ce;
+  transition: all 150ms ease-in-out;
+  width: 25%;
+}
+#city {
+  width: 60%;
+  display: block;
+  position: relative;
+  top: 333px;
+  left: 15px;
+}
+.date {
+  font-weight: 300;
+  font-size: 35px;
+  position: relative;
+  top: 300px;
+  left: 85px;
+}
+
+.city-name {
+  font-size: 55px;
+  font-weight: 100;
+  position: relative;
+  top: 115px;
+  left: 85px;
+}
+.weather-icon {
+  position: relative;
+  top: 65px;
+  left: 30px;
+  font-weight: 200;
+}
+.temp {
+  font-size: 70px;
+  position: relative;
+  top: 0px;
+  left: 175px;
+  font-weight: 200;
+}
+.fahrenheit {
+  position: relative;
+  top: -65px;
+  left: 275px;
+  border: transparent;
+  background-color: transparent;
+  text-decoration: none;
+}
+.celsius {
+  position: relative;
+  top: -65px;
+  left: 275px;
+  border: transparent;
+  background-color: transparent;
+  text-decoration: none;
+}
+.weather-condition {
+  font-weight: 100;
+  font-size: 30px;
+  position: relative;
+  top: 25px;
+  left: 155px;
+}
+
+.weather-description {
+  position: relative;
+  top: 35px;
+  left: 20px;
+  font-weight: 200;
+  font-size: 20px;
+}
+.one {
+  height: 555px;
+  position: absolute;
+  top: 100px;
+  left: 150px;
+  width: 370px;
+}
+.two {
+  height: 555px;
+  position: absolute;
+  top: 100px;
+  left: 600px;
+  width: 370px;
+}
+.three {
+  height: 225px;
+  position: absolute;
+  top: 260px;
+  right: 200px;
+  width: 250px;
+}
+.four {
+  height: 150px;
+  position: absolute;
+  top: 100px;
+  right: 200px;
+  width: 250px;
+}
+.five {
+  height: 150px;
+  position: absolute;
+  top: 495px;
+  right: 200px;
+  width: 250px;
+}
+.HighTemp {
+  text-align: center;
+}
+.LowTemp {
+  text-align: center;
+}
+
+.link {
+  position: relative;
+  top: 710px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+.forecast {
+  position: relative;
+  top: 110px;
+  text-align: center;
+}
