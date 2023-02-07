@@ -4,7 +4,7 @@ export default function Link() {
   return (
     <div className="link">
       <a
-        href="https://github.com/Savijacks95/savi-weather-app"
+        href="https://github.com/Savijacks95/Savs-React-App"
         target="_blank"
         rel="noopener noreferrer"
       >
