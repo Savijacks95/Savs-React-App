@@ -1,11 +1,15 @@
 import React from "react";
 import Forecast from "./Forecast";
 import sun from "./sun.jpg";
+import Search from "./Search";
+import Description from "./Description";
+import HiLo from "./Hi-Lo";
 
 export default function Temp() {
   return (
     <div className="card two">
-      <div className="city-name">City</div>;
+      <Search />
+      <div className="city-name">City</div>
       <div>
         <p className="date">Sunday, 12</p>
       </div>
@@ -24,6 +28,8 @@ export default function Temp() {
           <p className="weather-condition">Partly Cloudy</p>
         </div>
         <Forecast />
+        <Description />
+        <HiLo />
       </div>
     </div>
   );

@@ -1,11 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-import Search from "./Search";
-import Temp from "./Temp";
+import Weather from "./Weather";
 import Link from "./link";
-import Description from "./Description";
-import HiLo from "./Hi-Lo";
 
 import "./App.css";
 import reportWebVitals from "./reportWebVitals";
@@ -13,11 +10,8 @@ import reportWebVitals from "./reportWebVitals";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
+    <Weather />
     <Link />
-    <Search />
-    <Temp />
-    <Description />
-    <HiLo />
   </React.StrictMode>
 );
 
