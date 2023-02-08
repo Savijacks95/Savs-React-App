@@ -4,16 +4,7 @@ body {
   line-height: 33px;
   overflow: hidden;
 }
-.App {
-  font-family: sans-serif;
-  text-align: center;
-}
-.column {
-  width: 25%;
-  display: block;
-  margin-bottom: 20px;
-  float: left;
-}
+
 .btn {
   font-size: 14px;
   position: relative;
@@ -26,11 +17,9 @@ body {
   width: 25%;
 }
 #city {
-  width: 60%;
-  display: block;
+  width: 67%;
   position: relative;
   top: 333px;
-  left: 15px;
 }
 .date {
   font-weight: 300;
@@ -94,7 +83,7 @@ body {
 .one {
   height: 555px;
   position: absolute;
-  top: 100px;
+  top: -200px;
   left: 150px;
   width: 370px;
 }
@@ -103,12 +92,12 @@ body {
   position: absolute;
   top: 100px;
   left: 600px;
-  width: 370px;
+  width: 825px;
 }
 .three {
-  height: 225px;
+  height: 150px;
   position: absolute;
-  top: 260px;
+  top: 495px;
   right: 200px;
   width: 250px;
 }
@@ -120,9 +109,9 @@ body {
   width: 250px;
 }
 .five {
-  height: 150px;
+  height: 225px;
   position: absolute;
-  top: 495px;
+  top: 260px;
   right: 200px;
   width: 250px;
 }

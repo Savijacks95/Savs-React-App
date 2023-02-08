@@ -3,7 +3,7 @@ import React from "react";
 export default function Description() {
   return (
     <div>
-      <div className="three">
+      <div className="card three">
         <div className="weather-description">
           Humidity: <span className="humidity"></span>%
         </div>
