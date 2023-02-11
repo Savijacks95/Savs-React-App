@@ -4,8 +4,15 @@ import sun from "./sun.jpg";
 import Search from "./Search";
 import Description from "./Description";
 import HiLo from "./Hi-Lo";
+import axios from "axios";
 
 export default function Temp() {
+  const apiKey = `0f801bba3d6t60a3b33a098o4965a127
+`;
+  let city = "London";
+  let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}
+              &key=${apiKey}&units=metric
+`;
   return (
     <div className="card two bg-transparent">
       <Search />
