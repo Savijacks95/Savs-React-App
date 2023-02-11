@@ -7,7 +7,7 @@ import HiLo from "./Hi-Lo";
 
 export default function Temp() {
   return (
-    <div className="card two">
+    <div className="card two bg-transparent">
       <Search />
       <div className="city-name">City</div>
       <div>

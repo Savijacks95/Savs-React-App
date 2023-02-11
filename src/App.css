@@ -2,6 +2,10 @@ body {
   font-family: "Mitr", sans-serif;
   text-transform: capitalize;
   line-height: 33px;
+  background-image: url(clouds.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #477a97;
 }
 
 .btn {
@@ -85,6 +89,7 @@ body {
   top: -300px;
   left: 70px;
   width: 370px;
+  background-color: transparent;
 }
 .two {
   height: 555px;
