@@ -6,6 +6,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #477a97;
+  overflow: hidden;
 }
 
 .btn {
@@ -28,7 +29,7 @@ body {
   font-weight: 300;
   font-size: 35px;
   position: relative;
-  top: 295px;
+  top: 315px;
   left: 150px;
 }
 
@@ -78,12 +79,13 @@ body {
 
 .weather-description {
   position: relative;
-  top: 35px;
-  left: 20px;
-  font-weight: 200;
-  font-size: 20px;
+  top: -40px;
+  left: 450px;
+  font-size: 25px;
+  word-spacing: 5px;
+  line-height: 50px;
 }
-.one {
+.search {
   height: 555px;
   position: absolute;
   top: -300px;
@@ -95,35 +97,33 @@ body {
   position: absolute;
   top: 100px;
   left: 400px;
-  width: 825px;
+  width: 750px;
 }
 .three {
-  height: 175px;
+  height: 75px;
   position: absolute;
-  top: 50px;
-  right: 25px;
-  width: 275px;
-  background-color: #477a97;
+  top: 190px;
+  right: 230px;
+  width: 75px;
+  font-weight: 600;
 }
 .four {
-  height: 125px;
+  height: 75px;
   position: absolute;
-  top: 250px;
-  right: 165px;
-  width: 135px;
-}
-.five {
-  height: 125px;
-  position: absolute;
-  top: 250px;
-  right: 25px;
-  width: 135px;
+  top: 190px;
+  right: 135px;
+  width: 75px;
+  font-weight: 600;
 }
 .HighTemp {
   text-align: center;
+  position: relative;
+  top: 20px;
 }
 .LowTemp {
   text-align: center;
+  position: relative;
+  top: 20px;
 }
 
 .link {
@@ -136,6 +136,6 @@ a {
 }
 .forecast {
   position: relative;
-  top: 110px;
+  top: 10px;
   text-align: center;
 }
