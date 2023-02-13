@@ -6,7 +6,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #477a97;
-  overflow: hidden;
 }
 
 .btn {
@@ -29,61 +28,59 @@ body {
   font-weight: 300;
   font-size: 35px;
   position: relative;
-  top: 315px;
-  left: 150px;
+  top: 545px;
+  left: 100px;
 }
 
 .city-name {
-  font-size: 55px;
+  font-size: 45px;
   font-weight: 100;
   position: relative;
-  top: 115px;
-  left: 85px;
+  top: 340px;
+  left: 20px;
 }
 .weather-icon {
   position: relative;
-  top: 110px;
-  left: 30px;
-  font-weight: 200;
+  top: 300px;
+  left: -40px;
 }
 .temp {
-  font-size: 60px;
+  font-size: 80px;
   position: relative;
-  top: 15px;
-  left: 175px;
+  top: 185px;
+  left: 145px;
   font-weight: 200;
 }
 .fahrenheit {
   position: relative;
-  top: -50px;
-  left: 275px;
+  top: 130px;
+  left: 245px;
   border: transparent;
   background-color: transparent;
   text-decoration: none;
 }
 .celsius {
   position: relative;
-  top: -25px;
-  left: 245px;
+  top: 110px;
+  left: 274px;
   border: transparent;
   background-color: transparent;
   text-decoration: none;
 }
 .weather-condition {
-  font-weight: 100;
   font-size: 25px;
-  position: relative;
-  top: 10px;
-  left: 155px;
+  position: fixed;
+  top: 410px;
+  left: 608px;
 }
 
 .weather-description {
   position: relative;
-  top: -40px;
-  left: 450px;
+  top: 180px;
+  left: 365px;
   font-size: 25px;
   word-spacing: 5px;
-  line-height: 50px;
+  line-height: 45px;
 }
 .search {
   height: 555px;
@@ -102,16 +99,16 @@ body {
 .three {
   height: 75px;
   position: absolute;
-  top: 190px;
-  right: 230px;
+  top: 515px;
+  right: -65px;
   width: 75px;
   font-weight: 600;
 }
 .four {
   height: 75px;
   position: absolute;
-  top: 190px;
-  right: 135px;
+  top: 515px;
+  right: -160px;
   width: 75px;
   font-weight: 600;
 }
@@ -135,7 +132,8 @@ a {
   text-decoration: none;
 }
 .forecast {
-  position: relative;
-  top: 10px;
+  position: absolute;
+  top: 750px;
+  left: 200px;
   text-align: center;
 }
