@@ -38,7 +38,7 @@ export default function Weather(props) {
 
   if (weatherData.ready) {
     return (
-      <div className="card two bg-transparent">
+      <div className="card">
         <div className="city search">
           <form id="search-form" onSubmit={handleSubmit}>
             <input

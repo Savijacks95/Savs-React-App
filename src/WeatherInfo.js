@@ -30,12 +30,6 @@ export default function WeatherInfo(props) {
           Wind: <span className="wind">{Math.round(props.data.wind)}</span> mph
         </div>
         <Forecast />
-        <div className="card three">
-          <div className="HighTemp">{Math.round(props.data.high)}°</div>
-        </div>
-        <div className="card four">
-          <div className="LowTemp">{Math.round(props.data.low)}°</div>
-        </div>
       </div>
     </div>
   );
