@@ -2,10 +2,10 @@ body {
   font-family: "Mitr", sans-serif;
   text-transform: capitalize;
   overflow: hidden;
-  background-image: url(galaxy.jpg);
+  background-image: url(space.png);
   background-repeat: no-repeat;
-  background-size: 125%;
-  background-position: 55%;
+  background-size: 200%;
+  background-position: 25%;
   background-color: #050409;
 }
 
@@ -145,11 +145,7 @@ a {
   background-size: 50%;
   animation-delay: 0;
 }
-.stars3 {
-  background-image: url(stars3.PNG);
-  background-size: 50%;
-  animation-delay: -3s;
-}
+
 .stars4 {
   background-image: url(stars4.PNG);
   background-size: 50%;
