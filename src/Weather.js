@@ -40,16 +40,16 @@ export default function Weather(props) {
     return (
       <div className="card bg-transparent">
         <div className="city search">
-          <form id="search-form" onSubmit={handleSubmit}>
+          <form id="search-form " onSubmit={handleSubmit}>
             <input
               type="text"
               className="form-control bg-transparent"
               id="city"
               placeholder="Enter City"
-              autoFocus="on"
+              autoFocus="off"
               onChange={handleCityChange}
             />
-            <button className="bg-transparent btn">GO</button>
+            <button className="btn">GO</button>
           </form>
           <WeatherInfo data={weatherData} />
         </div>
