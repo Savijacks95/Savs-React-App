@@ -1,5 +1,5 @@
 import React from "react";
-import Forecast from "./Forecast";
+
 import DateFormat from "./DateFormat";
 import WeatherTemperature from "./WeatherTemperature";
 
@@ -29,7 +29,6 @@ export default function WeatherInfo(props) {
         <div className="weather-description">
           Wind: <span className="wind">{Math.round(props.data.wind)}</span> km/h
         </div>
-        <Forecast />
       </div>
     </div>
   );
